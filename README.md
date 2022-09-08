@@ -10,13 +10,13 @@ En Microsoft SQL Server correr el script que se encuentra en esta ruta "../scrip
 Comando para ejecutar Scaffolding.
 Desde visual abrir Administrador de paguetes en consola y seleccionar el proyecto POS.Domain.
 ``` 
-Scaffold-DbContext "{Cadena de conexión}" Microsoft.EntityFrameworkCore.SqlServer OutputDir {carpeta donde se alojara}
+Scaffold-DbContext "{Cadena de conexión}" Microsoft.EntityFrameworkCore.SqlServer -OutputDir {carpeta donde se alojara}
 ```
 
 Ejemplo para esta solución...
 
 ```
-Scaffold-DbContext "Server=..;Trusted_Connection=True" Microsoft.EntityFrameworkCore.SqlServer OutputDir Entities
+Scaffold-DbContext "Server=..;Trusted_Connection=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities
 ```
 
 ## License

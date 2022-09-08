@@ -7,21 +7,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB13D700-16A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{18C4F58E-1A33-453C-8A85-23823B0C572D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Domain", "POS.Domain\POS.Domain.csproj", "{45C07B75-9A8E-4E26-ABC9-C70153D203EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS.Domain", "POS.Domain\POS.Domain.csproj", "{45C07B75-9A8E-4E26-ABC9-C70153D203EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Infrastructure", "POS.Infrastructure\POS.Infrastructure.csproj", "{3545D892-7C43-4E26-A829-C45D9F0DB6DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS.Infrastructure", "POS.Infrastructure\POS.Infrastructure.csproj", "{3545D892-7C43-4E26-A829-C45D9F0DB6DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Application", "POS.Application\POS.Application.csproj", "{EEA1FB6C-09C3-4535-9B14-E0549E6D516F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS.Application", "POS.Application\POS.Application.csproj", "{EEA1FB6C-09C3-4535-9B14-E0549E6D516F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Api", "POS.Api\POS.Api.csproj", "{DC691AD7-F35F-437E-BE36-66AE7A5E137F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS.Api", "POS.Api\POS.Api.csproj", "{DC691AD7-F35F-437E-BE36-66AE7A5E137F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Utilities", "POS.Utilities\POS.Utilities.csproj", "{2A8D0E8C-8911-45EC-AA57-A1C5A47B06A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS.Utilities", "POS.Utilities\POS.Utilities.csproj", "{2A8D0E8C-8911-45EC-AA57-A1C5A47B06A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Test", "POS.Test\POS.Test.csproj", "{F5B97628-67F7-453C-856B-0880DF2F3397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS.Test", "POS.Test\POS.Test.csproj", "{F5B97628-67F7-453C-856B-0880DF2F3397}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{94C1C85D-C77B-4302-89CE-3476DA0AA6A3}"
 	ProjectSection(SolutionItems) = preProject
 		create_database.sql = create_database.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9CA24D0B-3399-48B6-8422-C53E385AD418}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
 Global
